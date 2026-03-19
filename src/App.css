@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #1a3c5e;
+  --primary-light: #2a5298;
+  --accent: #1a9be8;
+  --accent-hover: #1588cc;
+  --success: #27ae60;
+  --danger: #e74c3c;
+  --bg-main: #f5f7fa;
+  --bg-white: #ffffff;
+  --bg-card: #ffffff;
+  --text-dark: #1a1a2e;
+  --text-medium: #4a4a6a;
+  --text-light: #8888aa;
+  --border: #e8eaf0;
+  --shadow-sm: 0 2px 8px rgba(26, 60, 94, 0.08);
+  --shadow-md: 0 4px 20px rgba(26, 60, 94, 0.12);
+  --shadow-lg: 0 8px 40px rgba(26, 60, 94, 0.16);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --sidebar-width: 220px;
+  --header-height: 68px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-dark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0c8d8;
+  border-radius: 10px;
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
